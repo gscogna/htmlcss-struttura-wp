@@ -4,6 +4,16 @@
     box-sizing:border-box;
 }
 
+body{
+
+    background-image: url('https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png');
+    background-position: left top;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+
+}
+
 .float-left{
     float: left;
 }
@@ -21,23 +31,32 @@ clear: both;
 
 }
 
-body{
-
-    background-image: url('https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png');
-    background-position: left top;
-    background-size: auto;
-    background-repeat: repeat;
-    background-attachment: scroll;
-}
 
 header{
     height: 400px;
     background-image: url('https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg');
     background-size: auto;
+    position:relative;
+    border: 10px solid white;
 
 }
 
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border:5px solid white;
+}
 
+.logo-title{
+    height: 200px;
+    font-size: 40px;
+    color: white;
+}
+
+/* inzio Nav */
 
 ul {
   list-style-type: none;
@@ -59,6 +78,8 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
+
+/* iNIZIO MAIN */
 
 main{
     height: 500px;
@@ -88,6 +109,8 @@ main{
     background-color: white;
 
 }
+
+/* inizzio FOOTER */
 
 footer{
     height:150px;
