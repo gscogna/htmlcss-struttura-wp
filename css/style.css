@@ -3,3 +3,66 @@
     padding:0;
     box-sizing:border-box;
 }
+
+.float-left{
+    float: left;
+}
+
+.clearfix::after{
+content: "";
+display: table;
+clear: both;
+}
+
+body{
+
+    background-image: url('https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png');
+    background-position: left top;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+
+header{
+    height: 200px;
+    background-image: url('https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg');
+    background-size: auto;
+
+}
+
+nav{
+    height: 10px;
+    background-color: grey;
+}
+
+main{
+    height: 500px;
+    margin:10px 0;
+
+}
+
+.col-left{
+    width: 25%;
+    height: 75%;
+    background-color: pink;
+}
+
+.col-right{
+    width: 25%;
+    height:75%;
+    background-color: green;
+}
+
+.main-corpo{
+
+    width: calc(50% - 40px);
+    height: 100%;
+    background-color: black;
+    margin: 0 20px;
+
+}
+
+footer{
+    height:80px;
+    background-color: lightblue;
+}
